@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace InfomrationForOverRider
+{
+    public class ExampleInfomration
+    {
+        public string firstName { get; set; }
+
+        public string lastName { get; set; }
+
+        public override string ToString()
+        {
+            return $"{firstName} {lastName}";
+        }
+
+
+
+    }
+}
