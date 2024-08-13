@@ -13,8 +13,7 @@ namespace InfomrationForOverRider
 
         public override void SetEmailConfiguration()
         {
-            Host = "yahoo.com";
-            Port =  
+            
         }
 
         public bool SendNotification(string to, string title, string message1)
