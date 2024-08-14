@@ -13,6 +13,7 @@ namespace InfomrationForOverRider
 
         public override void SetEmailConfiguration()
         {
+            Host = "yahoo.com";
             
         }
 

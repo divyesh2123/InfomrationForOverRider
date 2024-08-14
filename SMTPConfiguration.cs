@@ -8,15 +8,15 @@ namespace InfomrationForOverRider
 {
     public class SMTPConfiguration
     {
-        public string Host { get; set; }    
+        public string Host { get; set; }
 
-        public int Port { get; set; }
+        protected int Port { get; set; }
 
-        public bool EnableSsl { get; set; } 
+        protected bool EnableSsl { get; set; }
 
-        public string FromPassword { get; set; }    
+        protected string FromPassword { get; set; }
 
-        public string FromEmail { get; set; }
+        protected string FromEmail { get; set; }
 
         public virtual void SetEmailConfiguration()
         {
