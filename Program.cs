@@ -1,6 +1,4 @@
 ﻿using InfomrationForOverRider;
 
-EmailNotification emailNotification = new EmailNotification();
-
-emailNotification.SetEmailConfiguration();
-emailNotification.SendNotification("","","");
+IEmailNotification emailNotification = new Notification();
+emailNotification.sendNotification("abc","Avc");
